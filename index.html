@@ -17,13 +17,13 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="headline">
+      <div class="headline clearfix">
         <img src="images/responsive-layout-profile.png" alt="Profile Image" class="headline-image"/>
         <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
       </div>
     </header>
     <body>
-      <div class="main-content" id="portfolio">
+      <div class="main-content clearfix" id="portfolio">
         <h2>Portfolio</h2>
           <div class="project">
             <img src="images/portfolio-1.png" alt="Image of Marketing Product">
@@ -65,9 +65,15 @@
         <p>Email: email@yoursite.com</p>
       </div>
       <hr />
-      <div class="footer-nav clearfix">
+      <div class="footer-bar clearfix">
         <h3>Student Name</h3>
-        <a href="#home">Back to Top</a>
+        <nav class="footer-nav">
+          <a href="#home" class="show_mobile">Back to Top</a>
+          <a href="#home" class="hide_mobile">Home</a>
+          <a href="#portfolio" class="hide_mobile">Portfolio</a>
+          <a href="#contact" class="hide_mobile">Contact</a>
+        </nav>
+
       </div>
     </footer>
 
