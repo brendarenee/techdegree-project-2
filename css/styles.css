@@ -40,7 +40,7 @@ p {
   word-spacing: .15em;
 }
 
-/************** Navigation Styles **************/
+/************** Main Navigation Styles **************/
 .navigation,
 .headline {
   text-align: center;
@@ -89,6 +89,17 @@ p {
 .project h3,
 .project p {
   padding-bottom: 20px;
+}
+
+.skills-list {
+  line-height: 2em;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.skills-item {
+
+  border-right: 5px green solid;
 }
 
 /************** Footer Styles **************/
@@ -193,4 +204,38 @@ hr {
 
 @media (min-width: 1024px) {
 
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .name {
+    float: left;
+  }
+
+  .nav-bar {
+    float: right;
+  }
+
+  .headline p {
+    width: 70%;
+  }
+
+  .headline-image {
+    width: 30%;
+  }
+
+  .main-content {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+  }
+
+  .project {
+    width: 33.33333%;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
 }
