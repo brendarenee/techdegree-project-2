@@ -16,6 +16,7 @@ body {
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
   color: #696969;
+  background-color: #f8f8f8;
 }
 
 h1,
@@ -38,6 +39,7 @@ ul {
 a {
   text-decoration: none;
   color: #696969;
+  background-color: #fff;
 }
 
 p {
@@ -101,11 +103,25 @@ p {
   width: 100%;
 }
 
+.project {
+  margin-bottom: 20px;
+}
+
 .project img,
 .project h3,
 .project p {
   padding-bottom: 20px;
 }
+
+.project h3 {
+  padding-top: 10px;
+}
+.project h3,
+.project p {
+    background-color: rgb(256,256,256);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 .skills-list {
   line-height: 2em;
@@ -158,6 +174,7 @@ hr {
 
 .footer-nav a {
   padding: 10px 20px;
+  background-color: #f8f8f8;
 }
 
 .footer-nav a:hover {
@@ -190,6 +207,10 @@ hr {
     margin-right: 10px;
   }
 
+  .nav-bar li a {
+    background-color: #f8f8f8;
+  }
+
   .headline-image {
     float: right;
     width: 40%;
@@ -216,6 +237,10 @@ hr {
     padding-bottom: 20px;
   }
 
+  .project p {
+    height: 85px;
+  }
+
   .footer {
     width: 60%;
     margin: 0 auto;
@@ -237,8 +262,8 @@ hr {
 @media (min-width: 1024px) {
 
   body {
-    width: 90%;
     margin: 0 auto;
+    max-width: 1100px;
   }
 
   .name {
@@ -267,5 +292,9 @@ hr {
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 20px;
+  }
+
+  .project p {
+    height: 100px;
   }
 }
