@@ -118,7 +118,7 @@ p {
 }
 .project h3,
 .project p {
-    background-color: rgb(256,256,256);
+    background-color: rgba(255,255,255, 0.8);
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -170,10 +170,11 @@ hr {
   float: right;
   color: inherit;
   text-align: right;
+  padding-top: 11px;
 }
 
 .footer-nav a {
-  padding: 10px 20px;
+  padding: 20px 20px;
   background-color: #f8f8f8;
 }
 
@@ -244,6 +245,14 @@ hr {
   .footer {
     width: 60%;
     margin: 0 auto;
+  }
+
+  .footer-bar h3 {
+    padding-top: 20px;
+  }
+
+  .footer-nav {
+    padding-top: 0px;
   }
 
   .show_mobile {
